@@ -1,4 +1,6 @@
 <?php
+namespace omarabid;
+
 /**
  * Class for Debugging and Displaying various 
  * information about the plugin. 
