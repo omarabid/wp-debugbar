@@ -14,7 +14,7 @@ class WP_DebugBar {
 	}
 
 	public function debug_bar_info_panel( $panels ) {	
-		$panel = new WP_DebugPanel();		
+		$panel = new debugbar\WP_DebugPanel();		
 		$panels[] = $panel;
 
 		return $panels;

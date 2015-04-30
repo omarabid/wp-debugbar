@@ -1,6 +1,8 @@
 <?php
+namespace omarabid\debugbar;
+
 // Exit if the Parent Class is not defined
-if ( ! class_exists( 'Debug_Bar_Panel' ) ) {
+if ( ! class_exists( '\Debug_Bar_Panel' ) ) {
 	return;
 }
 
@@ -10,7 +12,7 @@ if ( ! class_exists( 'Debug_Bar_Panel' ) ) {
  *
  * @package     Utils 
 */
-class DebugBar extends Debug_Bar_Panel {	
+class WP_DebugPanel extends \Debug_Bar_Panel {	
 	public function init() {
 		$this->title( 'BP Info' );	
 	}
