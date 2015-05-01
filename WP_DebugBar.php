@@ -1,5 +1,5 @@
 <?php
-namespace omarabid;
+namespace wpplex\WP_DebugBar;
 
 /**
  * Class for Debugging and Displaying various 
