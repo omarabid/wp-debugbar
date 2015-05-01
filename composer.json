@@ -1,5 +1,5 @@
 {
-	"name": "omarabid/wp-debugbar",
+	"name": "wpplex/wp-debugbar",
 	"type": "library",
 	"description": "A debugging class for WordPress plugins.",
 	"keywords": ["wordpress", "debugging"],
@@ -18,7 +18,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "omarabid\\": ""
+            "wpplex\\WP_DebugBar\\": ""
         }
     }
 }
