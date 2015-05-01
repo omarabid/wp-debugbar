@@ -1,5 +1,5 @@
 <?php
-namespace omarabid\debugbar;
+namespace wpplex\WP_DebugBar\debugbar;
 
 // Exit if the Parent Class is not defined
 if ( ! class_exists( '\Debug_Bar_Panel' ) ) {
